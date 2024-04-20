@@ -1,0 +1,15 @@
+version: 10
+name: 泛微E-Office
+confidence: 80
+detectOr:
+  - methon: GET
+    headers:
+    path: /eoffice10/client/web/assets/images/favicon.ico
+    identification:
+      - headers: false
+        body: false
+        iconMd5: 41eca7a9245394106a09b2534d8030df
+    requestBody: 
+    regular:
+detectAnd:
+  -
